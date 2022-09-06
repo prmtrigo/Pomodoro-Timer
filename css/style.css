@@ -83,3 +83,14 @@ section{
     box-shadow: 0px 0px 15px 10px var(--color-shadow);
 }
 
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26rem;
+    height: 26rem;
+    border-radius: 50%;
+    background-color: var(--color-secondary);
+    position: relative;
+}
+
