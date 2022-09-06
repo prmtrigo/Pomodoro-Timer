@@ -67,6 +67,11 @@ section{
     transition: 1s ease-in;
 }
 
+.painel p.active {
+    opacity: 1;
+    color: var(--color-secondary);
+}
+
 .timer {
     display: flex;
     justify-content: center;
