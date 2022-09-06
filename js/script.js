@@ -15,5 +15,18 @@ window.onload = () => {
 
 function start() {
 
-    document.getElementById('start').style.display =
+    document.getElementById('start').style.display = "none";
+    document.getElementById('reset').style.display = "block";
+    
+
+    seconds = 59;
+
+    let workMinutes = workTime - 1;
+    let breakMinutes = breakTime - 1;
+
+    breakCount = 0;
+
+    let timerFunction = () => {
+        
+    }
 }
